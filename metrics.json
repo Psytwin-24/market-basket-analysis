@@ -1,0 +1,113 @@
+{
+ "results": {
+  "invoices_analysed": 15000,
+  "catalogue_size": 120,
+  "frequent_itemsets": 270,
+  "rules_min_lift_1_6": 306,
+  "max_confidence": 0.7632,
+  "max_lift": 15.964,
+  "median_basket_size": 5.0
+ },
+ "table": {
+  "title": "Top association rules by confidence",
+  "headers": [
+   "if bought",
+   "then also",
+   "support",
+   "confidence",
+   "lift"
+  ],
+  "rows": [
+   [
+    "GREEN REGENCY TEACUP AND SAUCER",
+    "ROSES REGENCY TEACUP AND SAUCER",
+    0.0367,
+    0.763,
+    15.18
+   ],
+   [
+    "ROSES REGENCY TEACUP AND SAUCER",
+    "GREEN REGENCY TEACUP AND SAUCER",
+    0.0367,
+    0.731,
+    15.18
+   ],
+   [
+    "SWEETHEART CERAMIC TRINKET BOX",
+    "STRAWBERRY CERAMIC TRINKET BOX",
+    0.0412,
+    0.722,
+    8.1
+   ],
+   [
+    "ALARM CLOCK BAKELIKE GREEN",
+    "ALARM CLOCK BAKELIKE RED",
+    0.0291,
+    0.654,
+    13.69
+   ],
+   [
+    "VINTAGE HEADS AND TAILS CARD GAME",
+    "VINTAGE SNAP CARDS",
+    0.0285,
+    0.612,
+    8.87
+   ],
+   [
+    "SPACEBOY LUNCH BOX",
+    "DOLLY GIRL LUNCH BOX",
+    0.0265,
+    0.61,
+    14.03
+   ],
+   [
+    "ALARM CLOCK BAKELIKE RED",
+    "ALARM CLOCK BAKELIKE GREEN",
+    0.0291,
+    0.609,
+    13.69
+   ],
+   [
+    "DOLLY GIRL LUNCH BOX",
+    "SPACEBOY LUNCH BOX",
+    0.0265,
+    0.609,
+    14.03
+   ],
+   [
+    "HOT WATER BOTTLE I AM SO POORLY",
+    "CHOCOLATE HOT WATER BOTTLE",
+    0.0237,
+    0.607,
+    9.24
+   ],
+   [
+    "PINK BLUE FELT CRAFT TRINKET BOX",
+    "PINK CREAM FELT CRAFT TRINKET BOX",
+    0.026,
+    0.597,
+    10.81
+   ],
+   [
+    "HAND WARMER BIRD DESIGN",
+    "HAND WARMER OWL DESIGN",
+    0.0227,
+    0.587,
+    12.97
+   ],
+   [
+    "HAND WARMER SCOTTY DOG DESIGN",
+    "HAND WARMER OWL DESIGN",
+    0.0239,
+    0.57,
+    12.59
+   ]
+  ]
+ },
+ "figures": [
+  [
+   "basket.png",
+   "Rule strength and the support-confidence trade-off"
+  ]
+ ]
+}
